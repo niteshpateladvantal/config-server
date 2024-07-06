@@ -3,7 +3,7 @@ spring:
       mongodb:
         authentication-database: myfamous-app
         database: myfamous-app
-        host: localhost
+        host: myfamous.com
         port: 27017
         username: myfamous
         password: myfamous@123
