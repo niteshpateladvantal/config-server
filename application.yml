@@ -1,3 +1,13 @@
+spring:
+    data:
+      mongodb:
+        authentication-database: myfamous-app
+        database: myfamous-app
+        host: myfamous.com
+        port: 27017
+        username: myfamous
+        password: myfamous@123
+        
 eureka:
   instance:
     prefer-ip-address: true
