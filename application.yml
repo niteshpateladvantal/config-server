@@ -1,11 +1,4 @@
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-       defaultZone: http://localhost:5000/eureka
+
 spring:
     data:
       mongodb:
@@ -16,4 +9,12 @@ spring:
         username: myfamous
         password: myfamous@123
         
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+       defaultZone: http://localhost:5000/eureka        
 
